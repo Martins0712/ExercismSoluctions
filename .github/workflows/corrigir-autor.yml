@@ -17,8 +17,7 @@ jobs:
       - name: Resetar Autor para o Meu Perfil
         run: |
           git config --global user.name "Martins0712"
-          # COLOQUE SEU E-MAIL DO GITHUB NA LINHA ABAIXO:
-          git config --global user.email "seu_email_aqui@exemplo.com"
+          git config --global user.email "lucxinstex@gmail.com"
           
           git commit --amend --reset-author --no-edit
           git push --force
